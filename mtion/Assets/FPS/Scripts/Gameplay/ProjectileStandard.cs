@@ -74,6 +74,7 @@ namespace Unity.FPS.Gameplay
 
             m_ProjectileBase.OnShoot += OnShoot;
 
+            // need to setInActive
             Destroy(gameObject, MaxLifeTime);
         }
 
